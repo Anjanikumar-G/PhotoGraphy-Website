@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+    />
+  </head>
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    rel="stylesheet"
+  />
+  <body>
+    <section class="hero-section">
+      <!-- Overlay -->
+      <div class="hero-overlay"></div>
+
+      <!-- Navigation Menu -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+        <div class="container">
+          <a class="navbar-brand" href="#">DINESHGAHLOT.COM</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">PORTFOLIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#"
+                  data-bs-target="#heroCarousel"
+                  data-bs-slide-to="0"
+                  >TESTIMONIALS</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#"
+                  data-bs-target="#heroCarousel"
+                  data-bs-slide-to="1"
+                  >CONTACT</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Carousel -->
+      <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <!-- Slide 1 (Active) -->
+          <div class="carousel-item active">
+            <img
+              src="https://images.unsplash.com/photo-1529634806980-85c3dd6d34ac?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fHdlZGRpbmclMjBjb3VwbGV8ZW58MHx8MHx8fDA%3D"
+              class="d-block w-100"
+              alt="Slide 1"
+            />
+            <div class="carousel-caption">
+              <h1 class="display-4">Photography</h1>
+              <p class="lead">
+                Photography For Adventurous Souls & Rebels At Heart
+              </p>
+              <!-- <a href="#" class="btn btn-primary btn-lg">Get Started</a> -->
+            </div>
+          </div>
+          <!-- Slide 2 -->
+          <div class="carousel-item">
+            <img
+              src="https://images.unsplash.com/photo-1622504549828-0d1bc1b7615d?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              class="d-block w-100"
+              alt="Slide 2"
+            />
+            <div class="carousel-caption">
+              <h1 class="display-4">Discover</h1>
+              <p class="lead">Explore our services and features.</p>
+              <!-- <a href="#" class="btn btn-primary btn-lg">Learn More</a> -->
+            </div>
+          </div>
+        </div>
+        <!-- Carousel Controls -->
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#heroCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#heroCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+  </body>
+  <div class="container-fluid photo-gallery">
+    <h2 class="text-center mb-4">Photo Gallery</h2>
+
+    <!-- Photo Grid -->
+    <div class="row">
+      <div class="col-md-4 col-sm-6">
+        <img
+          src="https://images.unsplash.com/photo-1624592338685-c7290aa7827e?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODB8fHdlZGRpbmclMjBjb3VwbGV8ZW58MHx8MHx8fDA%3D"
+          alt="Image 1"
+        />
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <img
+          src="https://images.unsplash.com/photo-1626179181161-8bd22c478654?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nzh8fHdlZGRpbmclMjBjb3VwbGV8ZW58MHx8MHx8fDA%3D"
+          alt="Image 2"
+        />
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <img
+          src="https://images.unsplash.com/photo-1502635385003-ee1e6a1a742d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA3fHx3ZWRkaW5nJTIwY291cGxlfGVufDB8fDB8fHww"
+          alt="Image 3"
+        />
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4 col-sm-6">
+        <img
+          src="https://images.unsplash.com/photo-1537633468298-d86f0c2d4173?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTY3fHx3ZWRkaW5nJTIwY291cGxlfGVufDB8fDB8fHww"
+          alt="Image 4"
+        />
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <img
+          src="https://images.unsplash.com/photo-1665883268581-e51e0d8fd51b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y291cGxlcyUyMHBob3RvZ3JhcGh5fGVufDB8fDB8fHww"
+          alt="Image 5"
+        />
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <img
+          src="https://images.unsplash.com/photo-1561151743-e29aae031da5?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzA2fHxjb3VwbGVzJTIwcGhvdG9ncmFwaHl8ZW58MHx8MHx8fDA%3D"
+          alt="Image 6"
+        />
+      </div>
+    </div>
+  </div>
+  <!-- Add more rows and images as needed -->
+  <div class="container">
+    <h2 class="text-center mt-5 mb-4">Testimonial Carousel</h2>
+    <div
+      id="testimonialCarousel"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="testimonial">
+            <div class="testimonial-content">
+              <div class="testimonial-text">
+                <p class="testimonial-number">
+                  A constellation consists of visible stars that form a
+                  perceived outline or pattern, usually representing an animal,
+                  a person or mythological creature, or an inanimate object
+                </p>
+                <p class="testimonial-author">- SANDRA WALKER</p>
+              </div>
+              <img
+                src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cGVvcGxlfGVufDB8fDB8fHww"
+                class="testimonial-image"
+                alt="Testimonial Image 1"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="testimonial">
+            <div class="testimonial-content">
+              <div class="testimonial-text">
+                <p class="testimonial-number">
+                  Excellent photographer! Highly professional, articulate and
+                  creative. Pleasure to work with Clife. He knows what he wants
+                  and how to get the best out of his subjects. A true eye for
+                  seeing in depth beneath the surface.
+                </p>
+                <p class="testimonial-author">- Anet Vivems</p>
+              </div>
+              <img
+                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D"
+                class="testimonial-image"
+                alt="Testimonial Image 2"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="testimonial">
+            <div class="testimonial-content">
+              <div class="testimonial-text">
+                <p class="testimonial-number">
+                  A very caring and professional photographer, that is attentive
+                  to the little details. Very easy to work with and puts you at
+                  ease, working with you on making your plans come to fruition.
+                </p>
+                <p class="testimonial-author">- Erick</p>
+              </div>
+              <img
+                src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzB8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D"
+                class="testimonial-image"
+                alt="Testimonial Image 3"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#testimonialCarousel"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#testimonialCarousel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <!-- Contact Section -->
+  <section id="contact" class="mt-5">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label text-light">Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              placeholder="Enter your name"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label text-light"
+              >Email address</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="name@example.com"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label text-light">Message</label>
+            <textarea
+              class="form-control"
+              id="message"
+              rows="5"
+              placeholder="Enter your message"
+            ></textarea>
+          </div>
+          <div class="mb-3">
+            <label for="eventType" class="form-label text-light"
+              >Event Type</label
+            >
+            <div class="d-flex flex-column">
+              <button
+                type="button"
+                class="btn btn-outline-light rounded-pill mb-2"
+                data-bs-toggle="button"
+              >
+                Wedding
+              </button>
+              <button
+                type="button"
+                class="btn btn-outline-light rounded-pill mb-2"
+                data-bs-toggle="button"
+              >
+                Birthday
+              </button>
+              <button
+                type="button"
+                class="btn btn-outline-light rounded-pill mb-2"
+                data-bs-toggle="button"
+              >
+                Corporate
+              </button>
+              <button
+                type="button"
+                class="btn btn-outline-light rounded-pill mb-2"
+                data-bs-toggle="button"
+              >
+                Other
+              </button>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-outline-dark">Submit</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h4>Contact Us</h4>
+          <p>Email: info@example.com</p>
+          <p>Phone: +1234567890</p>
+          <p>Address: 123 Street, City, Country</p>
+        </div>
+        <div class="col-md-6">
+          <h4>Follow Us</h4>
+          <ul class="list-inline">
+            <li class="list-inline-item">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p>&copy; 2024 Your Website. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</html>
